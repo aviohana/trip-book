@@ -25,8 +25,8 @@
     "trips": [
         {
             "id": 1,
-            "name": "Paris 2017",
-            "description": "Amazing Paris",
+            "name": "פריז 2017",
+            "description": "פריז המדהימה",
             "hi lights": "Egg, Tomatto, Onion",
             "tips": "Pout eggs and then tomatto",
             "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdT33x6QTiGGdKLP_Lp6JXeJ9z_OOeyiAHH8hozVNpgwg91tJhw",

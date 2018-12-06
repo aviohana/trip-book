@@ -23,13 +23,11 @@ app.factory("trips", function($q, $http, user) {
             trips[userId] = [];
             // var loginURL = "http://my-json-server.typicode.com/nirch/recipe-book-v3/db?users?email=" +
             // email + "&pwd=" + pwd;
-
             // var getTripsURL = "http://my-json-server.typicode.com/aviohana/recipe-book-v3/users?email=" +
             // email + "&pwd=" + pwd;
-
             // var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book-v3/trips" + userId;
 
-            var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book-v3/trips?userId=" + userId;
+            var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book/trips?userId=" + userId;
 
             $http.get(getTripsURL).then(function(response) {
                 for (var i = 0; i < response.data.length; i++) {
