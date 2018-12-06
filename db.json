@@ -1,0 +1,63 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fname": "Nir",
+            "lname": "Channes",
+            "email": "nir@nir.com",
+            "pwd": "123"
+        },
+        {
+            "id": 2,
+            "fname": "John",
+            "lname": "Doe",
+            "email": "john@john.com",
+            "pwd": "123"
+        },
+        {
+            "id": 3,
+            "fname": "avi",
+            "lname": "ohana",
+            "email": "avi@avi.com",
+            "pwd": "123"
+        }
+    ],
+    "trips": [
+        {
+            "id": 1,
+            "name": "Paris 2017",
+            "description": "Amazing Paris",
+            "hi lights": "Egg, Tomatto, Onion",
+            "tips": "Pout eggs and then tomatto",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdT33x6QTiGGdKLP_Lp6JXeJ9z_OOeyiAHH8hozVNpgwg91tJhw",
+            "userId": 3
+        },
+        {
+            "id": 2,
+            "name": "Shakshuka",
+            "description": "Amazing egg dish with tomatto souce",
+            "hi lights": "Egg, Tomatto, Onion",
+            "tips": "Pout eggs and then tomatto",
+            "imgUrl": "https://www.serenaonline.co.za/wp-content/uploads/2017/12/Shakshouka-Poached-Eggs-in-a-Spicy-Tomato-Sauce-Smaller-File.jpg",
+            "userId": 1
+        },
+        {
+            "id": 3,
+            "name": "Shakshuka",
+            "description": "Amazing egg dish with tomatto souce",
+            "hi lights": "Egg, Tomatto, Onion",
+            "tips": "Pout eggs and then tomatto",
+            "imgUrl": "https://cdn.katalogsmakow.pl/2015/10/06/0x600/najlepsze-sniadanie-szakszuka-shakshouka-jajka-w-pomidorach.359892.jpg",
+            "userId": 2
+        },
+        {
+            "id": 4,
+            "name": "Shakshuka",
+            "description": "Amazing egg dish with tomatto souce",
+            "hi lights": "Egg, Tomatto, Onion",
+            "tips": "Pout eggs and then tomatto",
+            "imgUrl": "http://www.spicechronicles.com/wp-content/uploads/2015/09/Shakshouka_1_650.jpg",
+            "userId": 2
+        }        
+    ]
+}
