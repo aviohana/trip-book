@@ -29,7 +29,7 @@ app.factory("trips", function($q, $http, user) {
 
             // var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book-v3/trips" + userId;
 
-            var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book-v3/db?users?email=" + userId;
+            var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book-v3/trips?userId=" + userId;
 
             $http.get(getTripsURL).then(function(response) {
                 for (var i = 0; i < response.data.length; i++) {
