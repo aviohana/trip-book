@@ -21,12 +21,6 @@ app.factory("trips", function($q, $http, user) {
             async.resolve(trips[userId]);
         } else {
             trips[userId] = [];
-            // var loginURL = "http://my-json-server.typicode.com/nirch/recipe-book-v3/db?users?email=" +
-            // email + "&pwd=" + pwd;
-            // var getTripsURL = "http://my-json-server.typicode.com/aviohana/recipe-book-v3/users?email=" +
-            // email + "&pwd=" + pwd;
-            // var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book-v3/trips" + userId;
-
             var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book/trips?userId=" + userId;
 
             $http.get(getTripsURL).then(function(response) {
@@ -43,7 +37,6 @@ app.factory("trips", function($q, $http, user) {
 
         return async.promise;
     }
-
 
     function createTrip(name, description, ingredients, steps, imgUrl) {
         var async = $q.defer();
@@ -62,7 +55,6 @@ app.factory("trips", function($q, $http, user) {
 
         return async.promise;
     }
-
 
     return {
         getActiveUserTrips: getActiveUserTrips,

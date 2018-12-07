@@ -1,7 +1,4 @@
-body {
-    direction: rtl;
-    text-align: right;
-} 
+
 
 .login {
     width: 500px;
@@ -15,4 +12,9 @@ body {
 
 .homeH1 {
     color: red;
+}
+
+.backgrounImg {
+    max-width: 90%;
+    margin: 0 auto;
 }
