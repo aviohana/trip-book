@@ -48,7 +48,7 @@ app.factory("trips", function($q, $http, user) {
             userId: userId});
 
         // if working with real server:
-        //$http.post("http://my-json-server.typicode.com/nirch/trip-book-v3/trips", newtrip).then.....
+        //$http.post("http://my-json-server.typicode.com/aviohana/trip-book/trips", newtrip).then.....
 
         trips[userId].push(newTrip);
         async.resolve(newTrip);
