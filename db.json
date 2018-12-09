@@ -9,14 +9,24 @@
         },
         {
             "id": 2,
+<<<<<<< HEAD
             "fname": "Alon",
             "lname": "Ohana",
             "email": "alon@alon.com",
+=======
+            "fname": "Alina",
+            "lname": "Ohana",
+            "email": "Alina@Alina.com",
+>>>>>>> 95f592a2e747df867bfb2ced3f5961f533011f07
             "pwd": "123"
         },
         {
             "id": 3,
+<<<<<<< HEAD
             "fname": "Avi",
+=======
+            "fname": "avi",
+>>>>>>> 95f592a2e747df867bfb2ced3f5961f533011f07
             "lname": "Ohana",
             "email": "avi@avi.com",
             "pwd": "123"

@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 /* body {
     direction: rtl;
     text-align: right;
 }  */
+=======
+
+>>>>>>> 95f592a2e747df867bfb2ced3f5961f533011f07
 
 .login {
     width: 500px;
@@ -15,4 +19,9 @@
 
 .homeH1 {
     color: red;
+}
+
+.backgrounImg {
+    max-width: 90%;
+    margin: 0 auto;
 }
