@@ -9,15 +9,15 @@
         },
         {
             "id": 2,
-            "fname": "alon",
-            "lname": "ohana",
+            "fname": "Alon",
+            "lname": "Ohana",
             "email": "alon@alon.com",
             "pwd": "123"
         },
         {
             "id": 3,
-            "fname": "avi",
-            "lname": "ohana",
+            "fname": "Avi",
+            "lname": "Ohana",
             "email": "avi@avi.com",
             "pwd": "123"
         }
