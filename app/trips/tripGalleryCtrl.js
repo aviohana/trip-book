@@ -8,6 +8,8 @@ app.controller("tripGalleryCtrl", function($scope, trips, user, $location) {
         return;
     }
 
+    $scope.user = user.getActiveUser();
+
     trips.getActiveUserTrips().then(function (trips) {
         $scope.trips = trips;
     }, function(error) {
