@@ -1,6 +1,6 @@
 
 app.controller("newTripCtrl", function($scope, trips, $location, user) {
-    
+  
     // Checking if the user is currently logged in,
     // if not redirecting to the home page
     if (!user.isLoggedIn()) {
