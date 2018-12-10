@@ -8,7 +8,7 @@ app.factory("trips", function($q, $http, user) {
         this.name = plainTrip.name;
         this.description = plainTrip.description;
         this.ingredients = plainTrip.ingredients;
-        this.steps = plainTrip.steps;
+        this.tips = plainTrip.tips;
         this.imgUrl = plainTrip.imgUrl;
         this.userId = plainTrip.userId;
     }
@@ -38,13 +38,13 @@ app.factory("trips", function($q, $http, user) {
         return async.promise;
     }
 
-    function createTrip(name, description, ingredients, steps, imgUrl) {
+    function createTrip(name, description, ingredients, tips, imgUrl) {
         var async = $q.defer();
 
         var userId = user.getActiveUser().id;
 
         var newTrip = new Trip({id:-1, name: name, description: description,
-            ingredients: ingredients, steps: steps, imgUrl: imgUrl, 
+            ingredients: ingredients, tips: tips, imgUrl: imgUrl, 
             userId: userId});
 
         // if working with real server:

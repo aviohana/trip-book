@@ -10,7 +10,7 @@ app.controller("newTripCtrl", function($scope, trips, $location, user) {
 
     $scope.createTrip = function () {
         trips.createTrip($scope.name, $scope.description, 
-            $scope.ingrediants, $scope.steps,  $scope.image).then(function () {
+            $scope.highLights, $scope.tips,  $scope.image).then(function () {
             $location.path("/trips")
         }, function (err) {
             console.log(err);
