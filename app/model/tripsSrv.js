@@ -11,7 +11,6 @@ app.factory("trips", function($q, $http, user) {
         this.startDate = plainTrip.startDate;
         this.endDate = plainTrip.endDate;
         this.tips = plainTrip.tips;
-        debugger;
         this.duration = plainTrip.duration;
         this.imgUrl = plainTrip.imgUrl;
         this.userId = plainTrip.userId;
