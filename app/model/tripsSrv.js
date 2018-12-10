@@ -21,7 +21,7 @@ app.factory("trips", function($q, $http, user) {
             async.resolve(trips[userId]);
         } else {
             trips[userId] = [];
-            var getTripsURL = "http://my-json-server.typicode.com/aviohana/trip-book/trips?userId=" + userId;
+            var getTripsURL = "https://my-json-server.typicode.com/aviohana/trip-book/trips?userId=" + userId;
 
             $http.get(getTripsURL).then(function(response) {
                 for (var i = 0; i < response.data.length; i++) {
