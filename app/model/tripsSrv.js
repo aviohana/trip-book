@@ -11,6 +11,8 @@ app.factory("trips", function($q, $http, user) {
         this.startDate = plainTrip.startDate;
         this.endDate = plainTrip.endDate;
         this.tips = plainTrip.tips;
+        debugger;
+        this.duration = plainTrip.duration;
         this.imgUrl = plainTrip.imgUrl;
         this.userId = plainTrip.userId;
     }
@@ -40,7 +42,7 @@ app.factory("trips", function($q, $http, user) {
         return async.promise;
     }
 
-    function createTrip(name, description, highLights, tips, imgUrl) {
+    function createTrip(name, startDate, endDate, description, highLights, tips, duration, imgUrl) {
         var async = $q.defer();
 
         var userId = user.getActiveUser().id;

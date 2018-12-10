@@ -31,6 +31,7 @@
             "description": "פריז המדהימה",
             "highLights": "Tower, Gate, Palace, Wine, patisserie",
             "tips": "Learn french",
+            "duration": "9 days",
             "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdT33x6QTiGGdKLP_Lp6JXeJ9z_OOeyiAHH8hozVNpgwg91tJhw",
             "userId": 3
         },
@@ -42,6 +43,7 @@
             "description": "The best learning experiance i had",
             "highLights": "The theacher",
             "tips": "Get in touch with tapuah org",
+            "duration": "9 days",
             "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLei_4IW3VyRsPqRmuvn6B9okehna2BsumEH1KXh8HiQj2KovVQ",
             "userId": 3
         },
@@ -53,6 +55,7 @@
             "description": "Amazing egg dish with tomatto souce",
             "highLights": "Egg, Tomatto, Onion",
             "tips": "Pout eggs and then tomatto",
+            "duration": "9 days",
             "imgUrl": "https://cdn.katalogsmakow.pl/2015/10/06/0x600/najlepsze-sniadanie-szakszuka-shakshouka-jajka-w-pomidorach.359892.jpg",
             "userId": 2
         },
@@ -64,6 +67,7 @@
             "description": "Amazing egg dish with tomatto souce",
             "highLights": "Egg, Tomatto, Onion",
             "tips": "Pout eggs and then tomatto",
+            "duration": "9 days",
             "imgUrl": "http://www.spicechronicles.com/wp-content/uploads/2015/09/Shakshouka_1_650.jpg",
             "userId": 2
         }        
