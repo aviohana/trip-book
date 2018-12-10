@@ -6,8 +6,10 @@ app.factory("trips", function($q, $http, user) {
     function Trip(plainTrip) {
         this.id = plainTrip.id;
         this.name = plainTrip.name;
-        this.description = plainTrip.description;
-        this.ingredients = plainTrip.ingredients;
+        // this.description = plainTrip.description;
+        // this.ingredients = plainTrip.ingredients;
+        this.tips = plainTrip.StartDate;
+        this.tips = plainTrip.EndDate;
         this.tips = plainTrip.tips;
         this.imgUrl = plainTrip.imgUrl;
         this.userId = plainTrip.userId;
