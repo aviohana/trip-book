@@ -49,14 +49,14 @@
         },
         {
             "id": 3,
-            "startDate": "01.01.2017",
-            "endDate": "10.01.2017",
-            "name": "Shakshuka",
-            "description": "Amazing egg dish with tomatto souce",
-            "highLights": "Egg, Tomatto, Onion",
-            "tips": "Pout eggs and then tomatto",
-            "duration": "9 days",
-            "imgUrl": "https://cdn.katalogsmakow.pl/2015/10/06/0x600/najlepsze-sniadanie-szakszuka-shakshouka-jajka-w-pomidorach.359892.jpg",
+            "startDate": "15.01.2017",
+            "endDate": "20.01.2017",
+            "name": "Seguin Tree Dwellings",
+            "description": "life up among the pines",
+            "highLights": "These spaces are for retreat, reconnection, restoration, rejuvenation, and many happy returns.",
+            "tips": "Seguin Tree Dwellings will host artists-in-residence",
+            "duration": "5 days",
+            "imgUrl": "https://static1.squarespace.com/static/59ade950197aeadddee6ea32/59b4829580bd5e49f825fa4e/5af09cf70e2e72a09a179c04/1534357581654/Souhegan+exterior+white+border5.jpg?format=1500w",
             "userId": 2
         },
         {
