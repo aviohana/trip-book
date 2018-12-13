@@ -61,14 +61,14 @@
         },
         {
             "id": 4,
-            "startDate": "01.01.2017",
-            "endDate": "10.01.2017",
-            "name": "Shakshuka",
-            "description": "Amazing egg dish with tomatto souce",
-            "highLights": "Egg, Tomatto, Onion",
-            "tips": "Pout eggs and then tomatto",
-            "duration": "9 days",
-            "imgUrl": "http://www.spicechronicles.com/wp-content/uploads/2015/09/Shakshouka_1_650.jpg",
+            "startDate": "01.02.2017",
+            "endDate": "12.02.2017",
+            "name": "Poseidon Undersea Resort",
+            "description": "Activities abound for adventurers who wish to explore the unimaginable",
+            "highLights": "exploring the ocean’s depths as the passenger of a 1,000-foot luxury submersible",
+            "tips": "Fitness amenities include a nine-hole executive golf course, tennis courts, private splash pools and a fitness center",
+            "duration": "11 days",
+            "imgUrl": "https://blog.psprint.com/sites/default/files/2012/07/Poseidon-Undersea-Resort-Google-Chrome_2012-07-13_13-18-20_thumb.png",
             "userId": 2
         }        
     ]
