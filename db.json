@@ -43,10 +43,22 @@
             "description": "The best learning experiance i had",
             "highLights": "The theacher",
             "tips": "Get in touch with tapuah org",
-            "duration": "9 days",
+            "duration": "3 months",
             "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLei_4IW3VyRsPqRmuvn6B9okehna2BsumEH1KXh8HiQj2KovVQ",
             "userId": 3
         },
+        {
+        "id": 2,
+        "startDate": "10.24.2017",
+        "endDate": "12.23.2017",
+        "name": "teaching web masters at jhon brice",
+        "description": "The best teaching experiance i had",
+        "highLights": "I was The theacher",
+        "tips": "Get in touch with tapuah org",
+        "duration": "3 months",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLei_4IW3VyRsPqRmuvn6B9okehna2BsumEH1KXh8HiQj2KovVQ",
+        "userId": 1
+    },
         {
             "id": 3,
             "startDate": "15.01.2017",
