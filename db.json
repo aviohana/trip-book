@@ -1,29 +1,29 @@
 {
     "users": [
-        {
+            {
             "id": 1,
             "fname": "Nir",
             "lname": "Channes",
             "email": "nir@nir.com",
             "pwd": "123"
-        },
-        {
+            },
+            {
             "id": 2,
             "fname": "Alon",
             "lname": "Ohana",
             "email": "alon@alon.com",
             "pwd": "123"
-        },
-        {
+            },
+            {
             "id": 3,
             "fname": "Avi",
             "lname": "Ohana",
             "email": "avi@avi.com",
             "pwd": "123"
-        }
-    ],
+            }
+        ],
     "trips": [
-        {
+            {
             "id": 1,
             "startDate": "01.01.2017",
             "endDate": "10.01.2017",
@@ -34,8 +34,8 @@
             "duration": "9 days",
             "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdT33x6QTiGGdKLP_Lp6JXeJ9z_OOeyiAHH8hozVNpgwg91tJhw",
             "userId": 3
-        },
-        {
+            },
+            {
             "id": 2,
             "startDate": "10.24.2017",
             "endDate": "12.23.2017",
@@ -46,21 +46,21 @@
             "duration": "3 months",
             "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLei_4IW3VyRsPqRmuvn6B9okehna2BsumEH1KXh8HiQj2KovVQ",
             "userId": 3
-        },
-        {
-        "id": 2,
-        "startDate": "10.24.2017",
-        "endDate": "12.23.2017",
-        "name": "teaching web masters at jhon brice",
-        "description": "The best teaching experiance i had",
-        "highLights": "I was The theacher",
-        "tips": "Get in touch with tapuah org",
-        "duration": "3 months",
-        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlLei_4IW3VyRsPqRmuvn6B9okehna2BsumEH1KXh8HiQj2KovVQ",
-        "userId": 1
-    },
-        {
+            },
+            {
             "id": 3,
+            "startDate": "10.24.2017",
+            "endDate": "12.23.2017",
+            "name": "teaching web masters at jhon brice",
+            "description": "The best teaching experiance i had",
+            "highLights": "I was The theacher",
+            "tips": "Get in touch with tapuah org",
+            "duration": "3 months",
+            "imgUrl": "http://moodle.tapuah.org.il/pluginfile.php/67011/mod_forum/attachment/1631/targil.jpg",
+            "userId": 1
+            },
+        {
+            "id": 4,
             "startDate": "15.01.2017",
             "endDate": "20.01.2017",
             "name": "Seguin Tree Dwellings",
@@ -70,9 +70,9 @@
             "duration": "5 days",
             "imgUrl": "https://static1.squarespace.com/static/59ade950197aeadddee6ea32/59b4829580bd5e49f825fa4e/5af09cf70e2e72a09a179c04/1534357581654/Souhegan+exterior+white+border5.jpg?format=1500w",
             "userId": 2
-        },
-        {
-            "id": 4,
+            },
+            {
+            "id": 5,
             "startDate": "01.02.2017",
             "endDate": "12.02.2017",
             "name": "Poseidon Undersea Resort",
